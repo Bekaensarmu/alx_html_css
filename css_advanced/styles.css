@@ -1,0 +1,138 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: white;
+  background-color: #000;
+ 
+
+  
+}
+
+/* Header */
+header {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  overflow-x: hidden;
+  background: no-repeat center center/cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+nav h1 {
+  font-size: 18px;
+  margin-left: -850px;
+  color: #f7f1f1;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0047ff;
+}
+
+main {
+  background: url('./images/Object.png') no-repeat center center/cover;
+  text-align: center;
+  padding: -0px;
+  background-color: #2e2d2d;
+  width: 100%;
+  
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+span {
+  margin: 0 10px;
+  font-weight: 500;
+  color: #f9fcfb;
+  padding-right: 20px;
+}
+
+button {
+  margin-top: 40px;
+  padding: 15px 30px;
+  background: #c271ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+}
+
+h2 {
+  font-size: 48px;
+  margin: 1000px 0px 30px;
+}
+
+
+.image-row {
+  padding: 10px 10px 20px;
+  display: flex;
+  gap: 20px; /* Space between images */
+  justify-content: center; /* Center the row horizontally */
+  align-items: center; /* Center images vertically */
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  background-image: -moz-element(10px);
+  margin-bottom: 20px;
+
+  flex: 1;
+  min-width: 50px;
+  
+  padding: 1.6rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
